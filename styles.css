@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.logo h4 {
+    color: green;
+}
+
+.bg {
+    position: absolute;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    opacity: 0.8;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+}
+
+.navbr {
+    height: 60px;
+    width: 100%;
+}
+
+.navbar .icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 3s ease;
+}
+
+.navbar .icons :hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.icons i:nth-child(4) {
+    color: white;
+}
+
+.left-content {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    line-height: 45px;
+    opacity: 0.8;
+}
+
+.left-content ul {
+    list-style-type: none;
+}
+
+.left-content ul li {
+    transition: transform 0.5s ease;
+    transition-property: all;
+}
+
+.left-content ul li:hover {
+    color: green;
+    transform: translateX(20px);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card {
+    width: 280px;
+    height: 200px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+}
+
+.first .fa {
+    color: green;
+    font-size: 50px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    background-color: black;
+    color: green;
+}
+
+.second p {
+    margin-top: 18px;
+}
